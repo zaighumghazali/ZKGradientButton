@@ -14,6 +14,7 @@
 		61B9EB1629D84EF100F60992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B9EB1429D84EF100F60992 /* Main.storyboard */; };
 		61B9EB1829D84EF300F60992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B9EB1729D84EF300F60992 /* Assets.xcassets */; };
 		61B9EB1B29D84EF300F60992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B9EB1929D84EF300F60992 /* LaunchScreen.storyboard */; };
+		61B9EB2129D8500E00F60992 /* ZKGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9EB2029D8500E00F60992 /* ZKGradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		61B9EB1729D84EF300F60992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61B9EB1A29D84EF300F60992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61B9EB1C29D84EF300F60992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B9EB2029D8500E00F60992 /* ZKGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				61B9EB0129D84E9E00F60992 /* ZKGradientButton.h */,
+				61B9EB2029D8500E00F60992 /* ZKGradientButton.swift */,
 			);
 			path = ZKGradientButton;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					61B9EAFD29D84E9E00F60992 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					61B9EB0B29D84EF000F60992 = {
 						CreatedOnToolsVersion = 14.2;
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B9EB2129D8500E00F60992 /* ZKGradientButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +361,7 @@
 		61B9EB0629D84E9E00F60992 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -375,6 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,6 +390,7 @@
 		61B9EB0729D84E9E00F60992 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
